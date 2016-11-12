@@ -1,0 +1,272 @@
+/* Objetos */
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #032B5B;
+}
+
+/* botones */
+.btn-primary {
+    color: #fff;
+    background-color: #032B5B;
+    border-color: #032B5B;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #3069AD;
+    border-color: #3069AD;
+}
+
+/* list Group*/
+a.list-group-item, button.list-group-item 
+{
+    color: #435168;
+}   
+a.list-group-item .list-group-item-heading, button.list-group-item .list-group-item-heading 
+{
+    color: #3069AD;
+}
+a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, button.list-group-item:focus 
+{
+    color: #435168;
+}
+
+/* Body */
+body 
+{
+    /*font-family: 'Exo', sans-serif;*/
+    font-family: arial,sans-serif;
+    color: #435168;
+}
+
+/* header */
+.navbar-inverse
+{
+    background-color: #032B5B;
+    border-color: #032B5B;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #d8dee3;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    /*color: #3069AD;*/
+    color: #517BAD;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus
+{
+    background-color: #011B3B;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus
+{
+    background-color: #011B3B;
+}
+.navbar-inverse .navbar-toggle
+{
+    border-color: #fff;
+}
+.navbar-inverse .navbar-link {
+    color: #d8dee3;
+}
+.navbar-inverse .navbar-text {
+    color: #d8dee3;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus
+{
+    background-color: #011B3B;
+}
+.container>.navbar-header
+{
+    margin-left: 0px;
+    margin-right: 40px;
+}
+.navbar-brand-bc
+{
+    padding: 0px;
+    height: 100%;
+    margin: 10px 0px;
+    margin-left: 0px;   
+}
+.img-logo
+{
+    height: 80px;
+}
+
+@media (max-width: 768px) 
+{ 
+    .container>.navbar-header
+    {
+        margin-right: 0px;
+    }
+    .navbar-brand-bc
+    {
+        margin: 15px 0px;   
+    }
+    .navbar-brand img 
+    {
+        height: 70px;
+    }
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+@media (min-width: 992px) 
+{
+    .navbar-nav>li>a 
+    {
+        margin-top: 30px; 
+        margin-bottom: 0px;  
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 991px) 
+{
+    .navbar-nav>li>a 
+    {
+        margin-top: 0px; 
+        margin-bottom: 0px;  
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px)
+{
+    .container>.navbar-header
+    {
+        margin-right: 0px;
+    }
+    .navbar-brand-bc
+    {
+        margin: 15px 0px;   
+    }
+    .navbar-brand img 
+    {
+        height: 70px;
+    }
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:#fff;
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+/* main */
+.main
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* Post */
+.posts h3
+{
+    border-bottom: 2px solid #14B199;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+.post
+{
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.post .thumb-left
+{
+    margin-right: 10px;
+    width: 40%;
+}
+.post .thumb-right
+{
+    margin-left: 10px;
+    width: 40%;
+}
+.post .thumb img
+{
+    width: 100%;
+}
+.post .post-frame
+{
+    padding: 10px 15px;
+}
+
+/*footer*/
+footer 
+{
+	background-color: #22262A;
+}
+.footer-title
+{
+    margin: 15px 0px;
+    color: #fff;
+}
+.footer-text
+{
+    color: #BBBDBD;
+    font-size: 12px;
+}
+
+
+/*.DiseñoRedesSociales 
+{ 
+	float: left;
+	height: 30px; 
+	width: 30px; 
+}
+.SeccionOficinas 
+{ 
+	font-size: 11px; 
+	height: auto; 
+	line-height: 15px; 
+	padding-top: 5px;
+	width: 200px; 
+	float: left;
+	color: #BBBDBD;
+}
+.DiseñoPie
+{
+	padding: 20px 30px 10px 30px; 
+	overflow:hidden;
+}*/
+
+/*.CuadroMensaje h3
+{
+    color: #032B5B;
+    margin: 0px;
+    font-size: 25px;
+    border-bottom:2px solid #14B199;
+}*/
+.CuadroMensaje p 
+{
+    color: #435168;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 24px;
+}
